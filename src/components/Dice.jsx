@@ -2,7 +2,7 @@
 
 const Dice = ({ numbers, holdDice }) => {
   return (
-    <div className="flex justify-center flex-wrap md:w-3/5 sm:w-4/5 bg-gray-300 rounded-xl shadow-xl px-5 py-16 gap-8">
+    <div className="flex justify-center flex-wrap md:w-3/5 sm:w-4/5 bg-gray-300 rounded-xl shadow-xl px-5 py-10 md:py-16 gap-8">
       {numbers.map((number) => (
         <div
           onClick={() => holdDice(number.id)}

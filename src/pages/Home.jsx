@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
       {tenzies && <Confetti />}
-      <h1 className="text-center font-bold text-5xl py-20 text-green-600">
+      <h1 className="text-center font-bold text-3xl md:text-5xl py-10 md:py-20 text-green-600">
         {tenzies ? "You won the game" : "Play the dice game"}
       </h1>
       <div className="flex flex-wrap justify-center items-center">
@@ -47,7 +47,7 @@ const Home = () => {
       </div>
       <button
         onClick={rollDice}
-        className="bg-green-600 mt-8 rounded-lg text-white py-4 px-8 shadow-lg border-none font-bold text-xl"
+        className="bg-green-600 mt-4 md:mt-8 rounded-lg text-white py-4 px-8 shadow-lg border-none font-bold text-xl"
       >
         {tenzies ? "Start game" : "Roll"}
       </button>
