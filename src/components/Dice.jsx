@@ -15,3 +15,4 @@ const Dice = ({ numbers }) => {
 };
 
 export default Dice;
+//ok
