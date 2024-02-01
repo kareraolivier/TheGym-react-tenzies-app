@@ -19,3 +19,4 @@ const Dice = ({ numbers, holdDice }) => {
 };
 
 export default Dice;
+//ok
